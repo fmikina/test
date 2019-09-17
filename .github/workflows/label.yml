@@ -1,7 +1,5 @@
 name: Labeler
-on:
-  pull_request:
-    types: [assigned, unassigned, labeled, opened, edited, reopened, synchronize, unlocked]
+on: []
 
 jobs:
   label:
