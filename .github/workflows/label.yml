@@ -4,9 +4,6 @@ on:
     types: [labeled, opened, edited, synchronize]
   pull_request_review:
     types: [submitted, edited]
-  status:
-    branches: 
-    - *
 
 jobs:
   label:
