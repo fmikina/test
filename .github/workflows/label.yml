@@ -1,5 +1,9 @@
 name: Labeler
-on: []
+on: 
+  pull_request:
+    types: [labeled, opened, edited, synchronize]
+  pull_request_review:
+    types: [submitted, edited]
 
 jobs:
   label:
