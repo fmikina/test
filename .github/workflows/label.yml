@@ -10,4 +10,4 @@ jobs:
     - name: Merge pull requests
       uses: pascalgn/automerge-action@v0.2.5
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
