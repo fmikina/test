@@ -1,5 +1,7 @@
 name: Labeler
-on: [push, pull_request, pull_request_review, status]
+on:
+  pull_request:
+    types: [assigned]
 
 jobs:
   label:
