@@ -1,6 +1,8 @@
 name: Labeler2
 
-on: push
+on:
+  schedule:	
+    - cron:  '*/15 * * * *'
 
 jobs:
   label:
