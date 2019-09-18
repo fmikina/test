@@ -1,5 +1,6 @@
 name: Labeler2
-on: [check_run, pull_request_review]
+
+on: push
 
 jobs:
   label:
@@ -8,6 +9,6 @@ jobs:
 
     steps:
     - name: Merge pull requests
-      uses: fmikina/automerge-action@v0.4.1
+      uses: fmikina/automerge-action@v0.5.0
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
