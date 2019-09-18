@@ -1,5 +1,5 @@
 name: Labeler2
-on: [check_run, pull_request_review]
+on: [check_run, check_suite, pull_request_review]
 
 jobs:
   label:
