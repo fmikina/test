@@ -1,5 +1,8 @@
 name: Labeler2
-on: [check_run, check_suite, pull_request_review]
+
+on:
+  schedule:
+  - cron:  '0 * 0 ? * * *'
 
 jobs:
   label:
