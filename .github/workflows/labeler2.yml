@@ -8,6 +8,6 @@ jobs:
 
     steps:
     - name: Merge pull requests
-      uses: pascalgn/automerge-action@v0.2.5
+      uses: fmikina/automerge-action
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
