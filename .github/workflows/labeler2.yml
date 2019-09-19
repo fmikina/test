@@ -2,7 +2,7 @@ name: Labeler2
 
 on:
   schedule:	
-    - cron:  '*/5 * * * *'
+    - cron:  '* * * * *'
 
 jobs:
   label:
@@ -11,6 +11,6 @@ jobs:
 
     steps:
     - name: Merge pull requests
-      uses: fmikina/automerge-action@v0.0.0
+      uses: fmikina/automerge-action@v1.0.0
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
