@@ -11,6 +11,6 @@ jobs:
 
     steps:
     - name: Merge pull requests
-      uses: fmikina/automerge-action@v1.0.1
+      uses: fmikina/automerge-action@v1.0.2
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
