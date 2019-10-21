@@ -1,16 +1,16 @@
-name: Labeler2
+# name: Labeler2
 
-on:
-  schedule:	
-    - cron:  '* * * * *'
+# on:
+#   schedule:	
+#     - cron:  '* * * * *'
 
-jobs:
-  label:
+# jobs:
+#   label:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Merge pull requests
-      uses: fmikina/automerge-action@v1.1.8
-      env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+#     steps:
+#     - name: Merge pull requests
+#       uses: fmikina/automerge-action@v1.1.8
+#       env:
+#         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
